@@ -100,8 +100,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["www.nasyun.cloud"];
-pub const PUBLIC_RS_PUB_KEY: &str = "wF3gm30DM14QK6KmZxbfC9LI2Nwkk33Ejkyn3O2v51w=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["IP"];
+pub const PUBLIC_RS_PUB_KEY: &str = "KEY";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
